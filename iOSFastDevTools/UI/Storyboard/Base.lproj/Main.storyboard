@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSFastDevTools" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="LMB-f3-Esh" kind="show" identifier="CustomSegue0" id="fY5-zi-5Pg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.400000000000006" y="-320.68965517241384"/>
+        </scene>
+        <!--My View Controller-->
+        <scene sceneID="OQU-2Z-91o">
+            <objects>
+                <viewController storyboardIdentifier="CustomViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LMB-f3-Esh" customClass="MyViewController" customModule="iOSFastDevTools" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ABS-rD-Q5J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ray-sp-CXk">
+                                <rect key="frame" x="32" y="333" width="240" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^^&gt;^</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTv-xS-TBE">
+                                <rect key="frame" x="87" y="72" width="93" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="Back:" destination="LMB-f3-Esh" eventType="touchDown" id="5wT-rQ-crW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="uMe-fn-gn8"/>
+                    </view>
+                    <connections>
+                        <outlet property="myBtn" destination="XTv-xS-TBE" id="4cu-Yu-eAS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8tc-4v-oyF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="-319.79010494752629"/>
+        </scene>
+    </scenes>
+</document>
