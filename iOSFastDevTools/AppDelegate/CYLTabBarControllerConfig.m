@@ -92,8 +92,9 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
 //                                 thirdNavigationController,
 //                                 fourthNavigationController
 //                                 ];
-    DemoViewController * firstViewController = [[DemoViewController alloc]init];
-    
+//    DemoViewController * firstViewController = [[DemoViewController alloc]init];
+        MyViewController * firstViewController = [[MyViewController alloc]init];
+
     ViewController * secondViewController = [[ViewController alloc]init];
     
     UIViewController *fourthNavigationController = [[CYLBaseNavigationController alloc]

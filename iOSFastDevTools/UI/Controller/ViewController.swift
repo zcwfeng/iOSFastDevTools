@@ -43,15 +43,15 @@ class ViewController: UIViewController,UIScrollViewDelegate,UICollectionViewData
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        testGetDeviceInfo()
-        testButton()
-        testConfigString()
+//        testGetDeviceInfo()
+//        testButton()
+//        testConfigString()
         //        testLabel()
         //        testTextField()
         //        testScrollView()
         //        testTableView()
-        //        testCollectionView();
-                testAlert()
+                testCollectionView();
+//                testAlert()
         //        markdown()
         //        testNet(testid: 2)
         //        animationTestLottie()
@@ -65,6 +65,9 @@ class ViewController: UIViewController,UIScrollViewDelegate,UICollectionViewData
         
 //        print(NSLocalizedString("demo", comment: "swift 真难用"))
     }
+    
+    
+    
     
     func testGetDeviceInfo()
     {
@@ -527,7 +530,7 @@ class ViewController: UIViewController,UIScrollViewDelegate,UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //        print("collectionview%@",indexPath)
+                print("collectionview%@",indexPath)
     }
     
     
