@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010A139F20A1A12D0027477C /* OCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 010A139E20A1A12D0027477C /* OCUtils.m */; };
 		0110F3641FE78F7700BCF826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110F3631FE78F7700BCF826 /* AppDelegate.swift */; };
 		0110F3661FE78F7700BCF826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110F3651FE78F7700BCF826 /* ViewController.swift */; };
 		0110F3691FE78F7700BCF826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0110F3671FE78F7700BCF826 /* Main.storyboard */; };
@@ -14,8 +15,11 @@
 		0110F36E1FE78F7700BCF826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0110F36C1FE78F7700BCF826 /* LaunchScreen.storyboard */; };
 		0110F3791FE78F7700BCF826 /* iOSFastDevToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110F3781FE78F7700BCF826 /* iOSFastDevToolsTests.swift */; };
 		0110F3841FE78F7700BCF826 /* iOSFastDevToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0110F3831FE78F7700BCF826 /* iOSFastDevToolsUITests.swift */; };
+		0133B3B92084A8CB00441F9D /* SqliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133B3B82084A8CB00441F9D /* SqliteManager.swift */; };
 		0168591F1FFC86310034AB0B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0168591E1FFC86310034AB0B /* MyViewController.swift */; };
 		016A92AD2008A51000D04A59 /* PictureSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016A92AC2008A51000D04A59 /* PictureSelectorViewController.swift */; };
+		017F704C20A939E900DF5DA8 /* AVFoundationTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F704B20A939E900DF5DA8 /* AVFoundationTestVC.swift */; };
+		017F704E20A93A6B00DF5DA8 /* AVPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F704D20A93A6B00DF5DA8 /* AVPlayerManager.swift */; };
 		018038D72047DBCD00F28D43 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018038D62047DBCD00F28D43 /* SplashViewController.swift */; };
 		018038DC2047DE0100F28D43 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018038DB2047DE0100F28D43 /* DemoViewController.m */; };
 		018038E02047E03100F28D43 /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 018038DF2047E03100F28D43 /* CYLPlusButtonSubclass.m */; };
@@ -48,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010A139D20A1A12D0027477C /* OCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCUtils.h; sourceTree = "<group>"; };
+		010A139E20A1A12D0027477C /* OCUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCUtils.m; sourceTree = "<group>"; };
 		0110F3601FE78F7700BCF826 /* iOSFastDevTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFastDevTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0110F3631FE78F7700BCF826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0110F3651FE78F7700BCF826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 		0110F3831FE78F7700BCF826 /* iOSFastDevToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFastDevToolsUITests.swift; sourceTree = "<group>"; };
 		0110F3851FE78F7700BCF826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0126E3341FF64665006595D5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0133B3B82084A8CB00441F9D /* SqliteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteManager.swift; sourceTree = "<group>"; };
 		013FD7FD20074F50005462AB /* demo.bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo.bundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		013FD7FF20074F50005462AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0140105A1FF646F10094AE33 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +80,8 @@
 		016C3E3E2043B78B00081B91 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		016C3E3F2043B78F00081B91 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		016C3E402043B79000081B91 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		017F704B20A939E900DF5DA8 /* AVFoundationTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationTestVC.swift; sourceTree = "<group>"; };
+		017F704D20A93A6B00DF5DA8 /* AVPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerManager.swift; sourceTree = "<group>"; };
 		018038D62047DBCD00F28D43 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		018038D92047DE0100F28D43 /* iOSFastDevTools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSFastDevTools-Bridging-Header.h"; sourceTree = "<group>"; };
 		018038DA2047DE0100F28D43 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -191,6 +200,14 @@
 			path = iOSFastDevToolsUITests;
 			sourceTree = "<group>";
 		};
+		0133B3B72084A8A800441F9D /* db */ = {
+			isa = PBXGroup;
+			children = (
+				0133B3B82084A8CB00441F9D /* SqliteManager.swift */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
 		013FD7FE20074F50005462AB /* demo.bundle */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +237,7 @@
 				018038DA2047DE0100F28D43 /* DemoViewController.h */,
 				018038DB2047DE0100F28D43 /* DemoViewController.m */,
 				018038D92047DE0100F28D43 /* iOSFastDevTools-Bridging-Header.h */,
+				017F704B20A939E900DF5DA8 /* AVFoundationTestVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,9 +273,13 @@
 		01CA83621FFB538100B3887C /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				0133B3B72084A8A800441F9D /* db */,
 				01A6659B1FFB843800124717 /* SSBaseNetWork.swift */,
 				01A6659C1FFB843800124717 /* SSLoginNetWorkRequest.swift */,
 				01CA83631FFB53F900B3887C /* NetworkRequest.swift */,
+				010A139D20A1A12D0027477C /* OCUtils.h */,
+				010A139E20A1A12D0027477C /* OCUtils.m */,
+				017F704D20A93A6B00DF5DA8 /* AVPlayerManager.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -519,10 +541,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSFastDevTools/Pods-iOSFastDevTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetwork/AFNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/EFCMark/EFCMark.framework",
 				"${BUILT_PRODUCTS_DIR}/EFMarkdown/EFMarkdown.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
@@ -533,10 +559,14 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFCMark.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFMarkdown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
@@ -636,17 +666,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				018038E42047E1C300F28D43 /* CYLTabBarControllerConfig.m in Sources */,
+				0133B3B92084A8CB00441F9D /* SqliteManager.swift in Sources */,
 				01A665A01FFB969F00124717 /* SecondViewController.swift in Sources */,
 				0110F3661FE78F7700BCF826 /* ViewController.swift in Sources */,
 				016A92AD2008A51000D04A59 /* PictureSelectorViewController.swift in Sources */,
 				018038DC2047DE0100F28D43 /* DemoViewController.m in Sources */,
 				018038D72047DBCD00F28D43 /* SplashViewController.swift in Sources */,
+				010A139F20A1A12D0027477C /* OCUtils.m in Sources */,
 				01A6659D1FFB843800124717 /* SSBaseNetWork.swift in Sources */,
 				0168591F1FFC86310034AB0B /* MyViewController.swift in Sources */,
+				017F704C20A939E900DF5DA8 /* AVFoundationTestVC.swift in Sources */,
 				01A6659E1FFB843800124717 /* SSLoginNetWorkRequest.swift in Sources */,
 				018038E02047E03100F28D43 /* CYLPlusButtonSubclass.m in Sources */,
 				01CA83641FFB53F900B3887C /* NetworkRequest.swift in Sources */,
 				0110F3641FE78F7700BCF826 /* AppDelegate.swift in Sources */,
+				017F704E20A93A6B00DF5DA8 /* AVPlayerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
